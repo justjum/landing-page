@@ -2,13 +2,16 @@
 body {
     font-family: 'Roboto', Impact, sans-serif;
     background-color: black;
+    border: 0;
+    margin: 0;
 }
 
 .landing-page {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 5% 10%;
+    padding: 0;
+    min-width: 500px;
 }
 
 header {
@@ -47,6 +50,7 @@ a {
     padding: 5px;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
@@ -160,11 +164,12 @@ a {
 .call-block button {
     background-color: #3882F6;
     border: 3px solid #fff;
-    height: 30px;
+    height: auto;
     width: 100px;
     border-radius: 10px;
     color: #fff;
     margin: 0 0 0 30px;
+    padding: 2px;
 }
 
 .call-title {
